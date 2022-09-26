@@ -1,0 +1,41 @@
+nav {
+	border:1px solid black;
+	width: 20%;
+	margin: auto;
+	padding: 5px;
+}
+header{
+	border: 1px solid black;
+	padding: 5px;
+	font-size: 300%;
+	text-align: center;
+ }
+ main {
+ 	border: 1px solid black;
+ 	padding: 5px;
+ }
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+img{
+	border: solid 1px black;
+}
+@media screen and (min-width: 37.5em){
+.dalk-2{
+display: block;
+margin-right: auto;
+margin-left: auto;
+gap: 10px;
+border: 1px solid black;
+padding: 10px;
+
+}
+}
+ul {
+	background-color: blue;
+}
+nav {
+	background-color: skyblue;
+}

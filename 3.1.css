@@ -1,0 +1,53 @@
+
+
+.dalk-2, .dalk-3, .dalk-4{
+display: grid;
+grid-template-columns: 1fr;
+gap: 10px;
+border: 1px solid black;
+padding: 10px;
+
+}
+@media screen and (min-width: 37.5em){
+
+
+
+.dalk-4{
+display: grid;
+grid-template-columns:repeat(2,1fr);
+gap: 10px;
+border: 1px solid black;
+padding: 10px;
+}
+}
+@media screen and (min-width: 48em){
+
+
+
+.dalk-2{
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 10px;
+border: 1px solid black;
+padding: 10px;}
+
+.dalk-3{
+	display: grid;
+	gap: 10px;
+	grid grid-template-columns: repeat(3, 1fr);
+}
+.dalk-4{
+display: grid;
+grid-template-columns:repeat(4,1fr);
+gap: 10px;
+border: 1px solid black;
+padding: 10px;
+}
+}
+@media screen and (min-width: 60em){
+body{
+	width: 80%;
+	margin: 0 auto;
+}
+
+}
